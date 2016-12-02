@@ -1,0 +1,22 @@
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  color: #5F5F5F;
+}
+
+.appear-enter {
+  transition-duration: .7s;
+  transition-property: opacity;
+  transition-timing-function: ease-out;
+  opacity: 0;
+}
+
+.appear-enter.appear-enter-active {
+  opacity: 1;
+}
+
+.appear-leave {
+  opacity: 0;
+}
